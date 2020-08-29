@@ -1,8 +1,9 @@
 # c-string-splitter
-String splitter in for c language just like split function of OOP languages
+String splitter for c language just like split methods given by default by the majority of OOP languages.
 
-Since i never found an easy implementing and already coded function for split strings in c i build my own version.
-This avoid using functions just like strtok wich modify the original passed string to the function. Example of some problems while using strtok: [StackOverflow](https://stackoverflow.com/questions/63151324/segmentation-fault-returned-using-strtok/63151617)
+Since i never found an easy implemantion and already well-coded function for split strings in c i build my own version.
+This script avoid the use of functions like ```strtok``` wich modifies the original passed string to the function. Example of some problems while using strtok: [StackOverflow](https://stackoverflow.com/questions/63151324/segmentation-fault-returned-using-strtok/63151617)
+The passed string will not be manipulated.
 
 # Usage
 Include ```splitter.h``` in your code.
