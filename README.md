@@ -8,7 +8,7 @@ Instead with this function, the passed string will not be manipulated.
 
 # Usage
 Include ```splitter.h``` in your code.
-```
+```c
 #include "splitter.h"
 
 int main(){
