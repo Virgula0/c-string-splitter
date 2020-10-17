@@ -3,7 +3,7 @@
 int main(){
 	char *string = "this|is|a|long|string|which|needs|to|be|splitted\n";
 	char ** strings = split(string,'|');
-	int count;
+	int count = 0;
 	printf("\nOriginal one: %s",string);
 	printf("Splitted:");
 	while (*strings){
